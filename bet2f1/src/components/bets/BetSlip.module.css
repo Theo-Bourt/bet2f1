@@ -1,0 +1,6 @@
+.root {
+  padding: var(--space-5);
+  background: var(--card);
+  border: var(--border-width) dashed var(--border);
+  border-radius: var(--radius-card);
+}

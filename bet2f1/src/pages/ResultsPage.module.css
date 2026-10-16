@@ -1,0 +1,11 @@
+.top, .bottom {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: var(--space-5);
+}
+
+.side { display: flex; flex-direction: column; gap: var(--space-5); }
+
+@media (max-width: 1024px) {
+  .top, .bottom { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,64 @@
+/* Design system PitWager, repris du Figma (« Mini design system »). */
+:root {
+  /* Couleurs */
+  --bg: #0B0B10;
+  --card: #16161D;
+  --card-raised: #1E1E27;
+  --border: #2A2A35;
+  --text: #F5F5F7;
+  --text-muted: #9A9AA8;
+
+  --racing-red: #E10600;
+  --racing-red-hover: #FF2A1F;
+  --telemetry-cyan: #00E5FF;
+  --points-gold: #FFC400;
+  --success: #3DDC84;
+  --danger: #FF4D5E;
+
+  /* Raretés de la boutique */
+  --rarity-common: #9A9AA8;
+  --rarity-rare: #4FB3FF;
+  --rarity-epic: #A77BFF;
+  --rarity-legendary: #FFC400;
+
+  /* Typographie */
+  --font-display: 'Roboto Condensed', system-ui, sans-serif; /* Bold Italic */
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;    /* télémétrie */
+
+  --text-display-xl: 48px;
+  --text-display-l: 36px;
+  --text-display-m: 26px;
+  --text-body: 14px;
+  --text-label: 12px;
+  --text-micro: 10px;
+
+  /* Espacements */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  /* Formes */
+  --radius-control: 8px;
+  --radius-card: 16px;
+  --radius-pill: 999px;
+  --border-width: 1px;
+
+  /* Mise en page */
+  --page-margin: 48px;
+  --page-max-width: 1344px;
+  --navbar-height: 80px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --page-margin: 20px;
+    --navbar-height: 72px;
+    --text-display-xl: 32px;
+    --text-display-l: 28px;
+  }
+}

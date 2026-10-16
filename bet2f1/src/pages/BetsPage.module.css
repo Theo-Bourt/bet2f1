@@ -1,0 +1,15 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: var(--space-5);
+  align-items: start;
+}
+
+.market { display: flex; flex-direction: column; gap: var(--space-5); }
+
+.slip { position: sticky; top: calc(var(--navbar-height) + var(--space-4)); }
+
+@media (max-width: 1024px) {
+  .layout { grid-template-columns: 1fr; }
+  .slip { position: static; order: -1; }
+}

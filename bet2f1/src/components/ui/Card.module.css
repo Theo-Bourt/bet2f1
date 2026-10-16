@@ -1,0 +1,8 @@
+.card {
+  background: var(--card);
+  border: var(--border-width) solid var(--border);
+  border-radius: var(--radius-card);
+  padding: var(--space-5);
+}
+
+.highlighted { border-color: var(--telemetry-cyan); }

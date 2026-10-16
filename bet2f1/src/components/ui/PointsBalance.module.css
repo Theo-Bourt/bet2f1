@@ -1,0 +1,14 @@
+.balance {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--points-gold);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.coin { font-size: 0.8em; }
+
+.small { font-size: var(--text-label); }
+.medium { font-size: 16px; }
+.large { font-family: var(--font-display); font-style: italic; font-size: var(--text-display-m); }

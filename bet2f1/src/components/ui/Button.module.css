@@ -1,0 +1,27 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  height: 44px;
+  padding: 0 18px;
+  border: var(--border-width) solid transparent;
+  border-radius: var(--radius-control);
+  font-weight: 600;
+  color: var(--text);
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+.primary { background: var(--racing-red); }
+.primary:hover:not(:disabled) { background: var(--racing-red-hover); }
+
+.secondary { background: var(--card-raised); border-color: var(--border); }
+.secondary:hover:not(:disabled) { border-color: var(--text-muted); }
+
+.button:disabled {
+  background: var(--card-raised);
+  color: var(--text-muted);
+  cursor: not-allowed;
+}
+
+.fullWidth { width: 100%; }

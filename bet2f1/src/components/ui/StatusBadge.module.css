@@ -1,0 +1,24 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: var(--text-micro);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.cyan { color: var(--telemetry-cyan); background: rgb(0 229 255 / 0.12); }
+.red { color: var(--racing-red-hover); background: rgb(225 6 0 / 0.15); }
+.gold { color: var(--points-gold); background: rgb(255 196 0 / 0.12); }
+.success { color: var(--success); background: rgb(61 220 132 / 0.12); }
+.danger { color: var(--danger); background: rgb(255 77 94 / 0.12); }
+.neutral { color: var(--text-muted); background: var(--card-raised); }
+
+.common { color: var(--rarity-common); background: var(--card-raised); }
+.rare { color: var(--rarity-rare); background: rgb(79 179 255 / 0.12); }
+.epic { color: var(--rarity-epic); background: rgb(167 123 255 / 0.12); }
+.legendary { color: var(--rarity-legendary); background: rgb(255 196 0 / 0.12); }

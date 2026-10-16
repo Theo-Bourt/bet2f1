@@ -1,0 +1,7 @@
+.top {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  gap: var(--space-5);
+}
+
+@media (max-width: 1024px) { .top { grid-template-columns: 1fr; } }

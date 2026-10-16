@@ -1,0 +1,14 @@
+.notice {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px var(--page-margin);
+  background: rgb(0 229 255 / 0.05);
+  border-bottom: var(--border-width) solid var(--border);
+}
+
+.right {
+  color: var(--text-muted);
+  font-size: var(--text-micro);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}

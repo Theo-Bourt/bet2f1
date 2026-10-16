@@ -1,0 +1,32 @@
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  padding: var(--space-1);
+  background: var(--card);
+  border: var(--border-width) solid var(--border);
+  border-radius: var(--radius-control);
+  width: fit-content;
+  max-width: 100%;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: var(--border-width) solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.tab:hover { color: var(--text); }
+
+.active {
+  background: var(--card-raised);
+  border-color: var(--border);
+  color: var(--text);
+}
+
+@media (max-width: 768px) {
+  .tab { padding: 8px 10px; font-size: var(--text-label); }
+}

@@ -1,0 +1,28 @@
+.mobileNav { display: none; }
+
+@media (max-width: 768px) {
+  .mobileNav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: var(--space-2) var(--space-2) calc(var(--space-2) + env(safe-area-inset-bottom));
+    background: var(--card);
+    border-top: var(--border-width) solid var(--border);
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    color: var(--text-muted);
+    font-size: 16px;
+  }
+
+  .label { font-size: var(--text-micro); }
+  .active { color: var(--racing-red); }
+}

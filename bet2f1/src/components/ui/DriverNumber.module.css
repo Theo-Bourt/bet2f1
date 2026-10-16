@@ -1,0 +1,10 @@
+.marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  color: #0B0B10;
+  font-weight: 700;
+  border: 2px solid rgb(0 0 0 / 0.35);
+}
